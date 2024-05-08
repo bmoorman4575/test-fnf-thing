@@ -1,0 +1,36 @@
+{
+  "name": "fnf in gdevelop",
+  "short_name": "fnf in gdevelop",
+  "id": "com.example.gamename",
+  "description": "[THIS IS VERY OLD AND UN-OPTIMISED]\nThis project has been on pause for awile now because i'm working on other stuff.\nI dont know how long it will be before i pick it up again.                :>\n--------------------------------------------------------------------------------------------\nThis is Friday Night Funkin' in GDevelop. I wanted to make this to see if I could make this!\nthe only song right now is my friends singing triple trouble (i know its spelt wrong in game)\nthe original song and the backround is from the sonic exe 2.0 update!\nhttps://gamebanana.com/mods/316022\nHave fun :D",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "ios-icon-20.png",
+        "sizes": "20x20"
+      },{
+        "src": "android-icon-36.png",
+        "sizes": "36x36"
+      },{
+        "src": "android-icon-48.png",
+        "sizes": "48x48"
+      },{
+        "src": "android-icon-72.png",
+        "sizes": "72x72"
+      },{
+        "src": "android-icon-96.png",
+        "sizes": "96x96"
+      },{
+        "src": "android-icon-144.png",
+        "sizes": "144x144"
+      },{
+        "src": "android-icon-192.png",
+        "sizes": "192x192"
+      },{
+        "src": "icon-6.png",
+        "sizes": "512x512"
+      }]
+}
