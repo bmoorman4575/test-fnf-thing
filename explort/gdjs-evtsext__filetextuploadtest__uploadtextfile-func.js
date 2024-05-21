@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__filetextuploadtest__UploadTextFile !== "undefined") {
 gdjs.evtsExt__filetextuploadtest__UploadTextFile = {};
 
 
-gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x4892ef0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["image/png", "image/jpeg"];
 
@@ -67,7 +67,7 @@ gdjs.evtsExt__filetextuploadtest__UploadTextFile.eventsList0 = function(runtimeS
 
 
 var objects = [];
-gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x4892ef0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x3ae8620(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

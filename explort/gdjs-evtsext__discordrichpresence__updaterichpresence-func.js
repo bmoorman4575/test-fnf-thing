@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence !== "undefined"
 gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence = {};
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0xba1dd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1677640 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.evtTools.discordRP.client) return;
 
@@ -36,7 +36,7 @@ gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0xba1dd8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1677640(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

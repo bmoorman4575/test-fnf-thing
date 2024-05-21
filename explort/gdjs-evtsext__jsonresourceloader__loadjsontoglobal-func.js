@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal !== "undefined") {
 gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal = {};
 
 
-gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x1624c78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext
     .getArgument("Variable")
@@ -25,7 +25,7 @@ gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x1624c78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x3ae8620(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -15,7 +15,7 @@ gdjs.evtsExt__fnfesentials__cahngebpmmidsong.eventsList0 = function(runtimeScene
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55695036);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67365076);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().get("tempvar1").setNumber(60000 / (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("bpm")) || 0 : 0));

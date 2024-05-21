@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Rotate3DCamera !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Rotate3DCamera = {};
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DCamera.userFunc0x4a24c80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Rotate3DCamera.userFunc0x3e22e48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -39,7 +39,7 @@ gdjs.evtsExt__WithThreeJS__Rotate3DCamera.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DCamera.userFunc0x4a24c80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Rotate3DCamera.userFunc0x3e22e48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

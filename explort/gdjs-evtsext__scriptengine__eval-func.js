@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__Eval !== "undefined") {
 gdjs.evtsExt__ScriptEngine__Eval = {};
 
 
-gdjs.evtsExt__ScriptEngine__Eval.userFunc0x48c30f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__Eval.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 let canUseGDAPI = eventsFunctionContext.getArgument("gdapi");
 let canUseDocument = eventsFunctionContext.getArgument("document");
 
@@ -47,7 +47,7 @@ gdjs.evtsExt__ScriptEngine__Eval.eventsList0 = function(runtimeScene, eventsFunc
 {
 
 
-gdjs.evtsExt__ScriptEngine__Eval.userFunc0x48c30f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__Eval.userFunc0x3ae8620(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

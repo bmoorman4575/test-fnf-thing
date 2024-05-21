@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__GetArgAsNumber !== "undefined") {
 gdjs.evtsExt__ScriptEngine__GetArgAsNumber = {};
 
 
-gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x4a17a48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const index = eventsFunctionContext.getArgument("index");
 eventsFunctionContext.returnValue = gdjs.currentArgs.length < index ? -1 : gdjs.currentArgs[index];
@@ -19,7 +19,7 @@ gdjs.evtsExt__ScriptEngine__GetArgAsNumber.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x4a17a48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x3ae8620(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

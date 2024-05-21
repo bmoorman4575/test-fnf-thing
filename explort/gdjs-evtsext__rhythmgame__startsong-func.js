@@ -32,7 +32,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(56329140);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67926668);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().get("tempvar1").setNumber(60000 / (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("BPM")) || 0 : 0));

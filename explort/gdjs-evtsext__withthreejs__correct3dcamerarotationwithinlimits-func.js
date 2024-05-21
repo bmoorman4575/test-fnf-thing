@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits !== "u
 gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits = {};
 
 
-gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits.userFunc0x474c7c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits.userFunc0x3c47348 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -51,7 +51,7 @@ gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits.eventsList0 = fun
 {
 
 
-gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits.userFunc0x474c7c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Correct3DCameraRotationWithinLimits.userFunc0x3c47348(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

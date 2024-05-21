@@ -56,7 +56,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "fullscreentimer") > 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55667780);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67340956);
 }
 }
 }
@@ -100,7 +100,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.window.isFullScreen(runtimeScene));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55669468);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67336580);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -144,7 +144,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Dash");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55670748);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67348356);
 }
 }
 if (isConditionTrue_0) {
@@ -163,7 +163,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Equal");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55671844);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67349284);
 }
 }
 if (isConditionTrue_0) {

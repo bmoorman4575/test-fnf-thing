@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DBox !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DBox = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DBox.userFunc0x4a24c80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DBox.userFunc0x3e22e48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -81,7 +81,7 @@ gdjs.evtsExt__WithThreeJS__Create3DBox.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DBox.userFunc0x4a24c80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DBox.userFunc0x3e22e48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

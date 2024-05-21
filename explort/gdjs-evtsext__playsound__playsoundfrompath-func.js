@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__PlaySoundFromPath !== "undefined") {
 gdjs.evtsExt__PlaySound__PlaySoundFromPath = {};
 
 
-gdjs.evtsExt__PlaySound__PlaySoundFromPath.userFunc0x3c4e618 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__PlaySoundFromPath.userFunc0x3e0bd38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const audioFile = eventsFunctionContext.getArgument("URL");
 const channel = "syllabux_"+eventsFunctionContext.getArgument("channel");
@@ -37,7 +37,7 @@ gdjs.evtsExt__PlaySound__PlaySoundFromPath.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__PlaySound__PlaySoundFromPath.userFunc0x3c4e618(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__PlaySoundFromPath.userFunc0x3e0bd38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

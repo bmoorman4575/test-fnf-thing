@@ -58,7 +58,25 @@ let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.window.setWindowSize(runtimeScene, 1280, 720, false);
 }{gdjs.evtTools.window.centerWindow(runtimeScene);
+}{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 60);
 }}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
 
 }
 

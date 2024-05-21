@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__Function !== "undefined") {
 gdjs.evtsExt__PlaySound__Function = {};
 
 
-gdjs.evtsExt__PlaySound__Function.userFunc0x4619458 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__Function.userFunc0x3e0bd38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
   const channel = "syllabux_" + eventsFunctionContext.getArgument("channel");
@@ -30,7 +30,7 @@ gdjs.evtsExt__PlaySound__Function.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__PlaySound__Function.userFunc0x4619458(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__Function.userFunc0x3e0bd38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -529,7 +529,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55705468);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67376884);
 }
 }
 if (isConditionTrue_0) {
@@ -602,7 +602,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("doneloading")) == 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55699932);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67371492);
 }
 }
 if (isConditionTrue_0) {

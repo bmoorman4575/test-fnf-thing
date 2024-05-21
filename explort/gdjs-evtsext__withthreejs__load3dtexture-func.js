@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Load3DTexture !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Load3DTexture = {};
 
 
-gdjs.evtsExt__WithThreeJS__Load3DTexture.userFunc0x44c0498 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Load3DTexture.userFunc0x177d068 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -45,7 +45,7 @@ gdjs.evtsExt__WithThreeJS__Load3DTexture.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__WithThreeJS__Load3DTexture.userFunc0x44c0498(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Load3DTexture.userFunc0x177d068(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__imageuploader__DownloadTextFile !== "undefined") {
 gdjs.evtsExt__imageuploader__DownloadTextFile = {};
 
 
-gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x4a4c0f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x16930e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function DownloadTextContent(filename, mimeType,content) {
     var link = document.createElement('a')
@@ -31,7 +31,7 @@ gdjs.evtsExt__imageuploader__DownloadTextFile.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x4a4c0f8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x16930e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

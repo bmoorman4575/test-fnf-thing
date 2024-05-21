@@ -325,44 +325,9 @@ gdjs.copyArray(runtimeScene.getObjects("righttext"), gdjs.keybindsCode.GDrightte
 }
 
 
-};gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects = Hashtable.newFrom({"memory": gdjs.keybindsCode.GDmemoryObjects2});
-gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects = Hashtable.newFrom({"fps": gdjs.keybindsCode.GDfpsObjects2});
-gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects = Hashtable.newFrom({"memory": gdjs.keybindsCode.GDmemoryObjects2});
-gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects = Hashtable.newFrom({"memory": gdjs.keybindsCode.GDmemoryObjects2});
-gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects = Hashtable.newFrom({"fps": gdjs.keybindsCode.GDfpsObjects2});
+};gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects = Hashtable.newFrom({"fps": gdjs.keybindsCode.GDfpsObjects2});
+gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects1Objects = Hashtable.newFrom({"fps": gdjs.keybindsCode.GDfpsObjects1});
 gdjs.keybindsCode.eventsList4 = function(runtimeScene) {
-
-};gdjs.keybindsCode.eventsList5 = function(runtimeScene) {
-
-{
-
-
-
-}
-
-
-{
-
-
-gdjs.keybindsCode.eventsList4(runtimeScene);
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("memory"), gdjs.keybindsCode.GDmemoryObjects2);
-{for(var i = 0, len = gdjs.keybindsCode.GDmemoryObjects2.length ;i < len;++i) {
-    gdjs.keybindsCode.GDmemoryObjects2[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.common.trunc(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("memory")))) + " MB");
-}
-}}
-
-}
-
-
-};gdjs.keybindsCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -385,11 +350,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.keybindsCode.GDfpsObjects2.length = 0;
 
-gdjs.keybindsCode.GDmemoryObjects2.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects, 3, 29, "notes / ui");
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects, 3, 3, "notes / ui");
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects, 3, 29, "black");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects, 3, 3, "notes / ui");
 }}
 
 }
@@ -407,102 +368,17 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-gdjs.keybindsCode.GDfpsObjects2.length = 0;
+gdjs.keybindsCode.GDfpsObjects1.length = 0;
 
-gdjs.keybindsCode.GDmemoryObjects2.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDmemoryObjects2Objects, 3, 29, "");
-}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects2Objects, 3, 3, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDfpsObjects1Objects, 3, 3, "");
 }}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(10), false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("memory"), gdjs.keybindsCode.GDmemoryObjects2);
-{for(var i = 0, len = gdjs.keybindsCode.GDmemoryObjects2.length ;i < len;++i) {
-    gdjs.keybindsCode.GDmemoryObjects2[i].deleteFromScene(runtimeScene);
-}
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtsExt__RepeatEveryXSeconds__Repeat.func(runtimeScene, "memoryloop", 0.5, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(10), true);
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.keybindsCode.eventsList5(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("memory"), gdjs.keybindsCode.GDmemoryObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.keybindsCode.GDmemoryObjects2.length;i<l;++i) {
-    if ( gdjs.keybindsCode.GDmemoryObjects2[i].getString() == "0 MB" ) {
-        isConditionTrue_0 = true;
-        gdjs.keybindsCode.GDmemoryObjects2[k] = gdjs.keybindsCode.GDmemoryObjects2[i];
-        ++k;
-    }
-}
-gdjs.keybindsCode.GDmemoryObjects2.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(75797468);
-}
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.keybindsCode.GDmemoryObjects2 */
-{for(var i = 0, len = gdjs.keybindsCode.GDmemoryObjects2.length ;i < len;++i) {
-    gdjs.keybindsCode.GDmemoryObjects2[i].setString("(   memory usage not supported   )");
-}
-}{for(var i = 0, len = gdjs.keybindsCode.GDmemoryObjects2.length ;i < len;++i) {
-    gdjs.keybindsCode.GDmemoryObjects2[i].getBehavior("Tween").addObjectOpacityTween("fadeawakmemory", 0, "easeInQuad", 2000, true);
-}
-}{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(10), false);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
 
 };gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDstartObjects1Objects = Hashtable.newFrom({"start": gdjs.keybindsCode.GDstartObjects1});
 gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDleftObjects3Objects = Hashtable.newFrom({"left": gdjs.keybindsCode.GDleftObjects3});
-gdjs.keybindsCode.eventsList7 = function(runtimeScene) {
+gdjs.keybindsCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -568,7 +444,7 @@ gdjs.copyArray(runtimeScene.getObjects("lefttext"), gdjs.keybindsCode.GDlefttext
 
 
 };gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDdownObjects3Objects = Hashtable.newFrom({"down": gdjs.keybindsCode.GDdownObjects3});
-gdjs.keybindsCode.eventsList8 = function(runtimeScene) {
+gdjs.keybindsCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -634,7 +510,7 @@ gdjs.copyArray(runtimeScene.getObjects("downtext"), gdjs.keybindsCode.GDdowntext
 
 
 };gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDupObjects3Objects = Hashtable.newFrom({"up": gdjs.keybindsCode.GDupObjects3});
-gdjs.keybindsCode.eventsList9 = function(runtimeScene) {
+gdjs.keybindsCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -700,7 +576,7 @@ gdjs.copyArray(runtimeScene.getObjects("uptext"), gdjs.keybindsCode.GDuptextObje
 
 
 };gdjs.keybindsCode.mapOfGDgdjs_9546keybindsCode_9546GDrightObjects3Objects = Hashtable.newFrom({"right": gdjs.keybindsCode.GDrightObjects3});
-gdjs.keybindsCode.eventsList10 = function(runtimeScene) {
+gdjs.keybindsCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -765,7 +641,21 @@ gdjs.copyArray(runtimeScene.getObjects("righttext"), gdjs.keybindsCode.GDrightte
 }
 
 
-};gdjs.keybindsCode.eventsList11 = function(runtimeScene) {
+};gdjs.keybindsCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+gdjs.keybindsCode.eventsList5(runtimeScene);
+}
+
+
+{
+
+
+gdjs.keybindsCode.eventsList6(runtimeScene);
+}
+
 
 {
 
@@ -784,20 +674,6 @@ gdjs.keybindsCode.eventsList8(runtimeScene);
 {
 
 
-gdjs.keybindsCode.eventsList9(runtimeScene);
-}
-
-
-{
-
-
-gdjs.keybindsCode.eventsList10(runtimeScene);
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 {
 }
@@ -805,7 +681,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.keybindsCode.eventsList12 = function(runtimeScene) {
+};gdjs.keybindsCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -838,7 +714,7 @@ gdjs.keybindsCode.eventsList3(runtimeScene);
 {
 
 
-gdjs.keybindsCode.eventsList6(runtimeScene);
+gdjs.keybindsCode.eventsList4(runtimeScene);
 }
 
 
@@ -869,7 +745,8 @@ gdjs.copyArray(runtimeScene.getObjects("uptext"), gdjs.keybindsCode.GDuptextObje
 }{runtimeScene.getGame().getVariables().getFromIndex(1).setString((( gdjs.keybindsCode.GDdowntextObjects1.length === 0 ) ? "" :gdjs.keybindsCode.GDdowntextObjects1[0].getString()));
 }{runtimeScene.getGame().getVariables().getFromIndex(2).setString((( gdjs.keybindsCode.GDuptextObjects1.length === 0 ) ? "" :gdjs.keybindsCode.GDuptextObjects1[0].getString()));
 }{runtimeScene.getGame().getVariables().getFromIndex(3).setString((( gdjs.keybindsCode.GDrighttextObjects1.length === 0 ) ? "" :gdjs.keybindsCode.GDrighttextObjects1[0].getString()));
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(12).getChild("scenetogoto").setString("menu");
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Loadingscenes", false);
 }}
 
 }
@@ -884,7 +761,7 @@ isConditionTrue_0 = gdjs.evtsExt__Gamepads__C_Controller_X_is_connected.func(run
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.keybindsCode.eventsList11(runtimeScene);} //End of subevents
+gdjs.keybindsCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 }
@@ -956,7 +833,7 @@ gdjs.keybindsCode.GDfpsObjects2.length = 0;
 gdjs.keybindsCode.GDfpsObjects3.length = 0;
 gdjs.keybindsCode.GDfpsObjects4.length = 0;
 
-gdjs.keybindsCode.eventsList12(runtimeScene);
+gdjs.keybindsCode.eventsList10(runtimeScene);
 
 return;
 

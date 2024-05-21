@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x48c4a38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /**
  * The API disponible for scripts.
@@ -36,7 +36,7 @@ gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x48c4a38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x3ae8620(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__fnfesentials__backtomenu !== "undefined") {
 gdjs.evtsExt__fnfesentials__backtomenu = {};
 
 
-gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback55777460 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback67415316 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu", false);
 }}
 gdjs.evtsExt__fnfesentials__backtomenu.eventsList0 = function(runtimeScene, eventsFunctionContext) {
@@ -19,7 +19,7 @@ gdjs.evtsExt__fnfesentials__backtomenu.eventsList0 = function(runtimeScene, even
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback55777460(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback67415316(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -33,7 +33,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(55777140);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67414996);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.unloadAllAudio(runtimeScene);

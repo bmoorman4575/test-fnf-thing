@@ -18,7 +18,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelPlaying(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("Channelsongon")));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(56346180);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67974692);
 }
 }
 if (isConditionTrue_0) {
@@ -43,7 +43,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("Channelsongon")));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(56352268);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67976484);
 }
 }
 if (isConditionTrue_0) {

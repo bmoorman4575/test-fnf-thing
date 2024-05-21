@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded.userFunc0x48a4fd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded.userFunc0x3ae8620 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._renderToSprite = {};
 gdjs._renderToSprite.rt = PIXI.RenderTexture.create({ width: 100, height: 100 });
@@ -20,7 +20,7 @@ gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded.userFunc0x48a4fd8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__RenderToSprite__onFirstSceneLoaded.userFunc0x3ae8620(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

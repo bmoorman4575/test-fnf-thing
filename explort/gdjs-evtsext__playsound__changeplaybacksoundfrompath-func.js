@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath !== "undefined")
 gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath = {};
 
 
-gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath.userFunc0x45f8bd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath.userFunc0x3e0bd38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
   const channel = "syllabux_" + eventsFunctionContext.getArgument("channel");
@@ -27,7 +27,7 @@ gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath.userFunc0x45f8bd8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__changeplaybackSoundFromPath.userFunc0x3e0bd38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
