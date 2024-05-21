@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded !== "und
 gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded = {};
 
 
-gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded.userFunc0x16bfb80 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded.userFunc0x3daf4d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const SoundManager = runtimeScene.getGame().getSoundManager();
 const FullPath = eventsFunctionContext.getArgument("Filename");
@@ -31,7 +31,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded.userFunc0x16bfb80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__AudioCheckerFunctions__CheckIfMusicIsPreloaded.userFunc0x3daf4d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

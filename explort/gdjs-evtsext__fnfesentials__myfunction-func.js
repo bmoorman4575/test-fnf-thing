@@ -8040,7 +8040,7 @@ gdjs.evtsExt__fnfesentials__MyFunction.eventsList110(runtimeScene, eventsFunctio
 }
 
 
-};gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x189a130 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+};gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x3f0adc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function getRemainingTime(duration) {
   // Get the current time in Unix timestamp format (number of seconds since January 1, 1970)
@@ -8069,7 +8069,7 @@ gdjs.evtsExt__fnfesentials__MyFunction.eventsList112 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x189a130(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x3f0adc0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -8119,7 +8119,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x189ab40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+};gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x3ba6e78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function secondsToDuration(seconds) {
   // Calculate the number of minutes and seconds
@@ -8143,7 +8143,7 @@ gdjs.evtsExt__fnfesentials__MyFunction.eventsList115 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x189ab40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__fnfesentials__MyFunction.userFunc0x3ba6e78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

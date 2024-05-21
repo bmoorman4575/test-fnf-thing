@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Compressor__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__Compressor__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__Compressor__onFirstSceneLoaded.userFunc0x16d7548 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Compressor__onFirstSceneLoaded.userFunc0x17bc438 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Removed String-Buffer conversion functions from https://github.com/nodeca/pako/commit/23563dfae92cec9223804311a16636477ea6d7ab
 
@@ -56,7 +56,7 @@ gdjs.evtsExt__Compressor__onFirstSceneLoaded.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__Compressor__onFirstSceneLoaded.userFunc0x16d7548(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Compressor__onFirstSceneLoaded.userFunc0x17bc438(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

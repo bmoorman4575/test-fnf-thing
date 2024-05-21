@@ -349,7 +349,7 @@ gdjs.modeedit_46noteeditorCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.modeedit_46noteeditorCode.userFunc0x4769af0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.modeedit_46noteeditorCode.userFunc0x3e020a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log(runtimeScene.getVariables().get("temp").getAsString())
 };
@@ -368,7 +368,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.modeedit_46noteeditorCode.userFunc0x4769af0(runtimeScene);
+gdjs.modeedit_46noteeditorCode.userFunc0x3e020a8(runtimeScene);
 
 }
 

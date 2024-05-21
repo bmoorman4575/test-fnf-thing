@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DScene !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DScene = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DScene.userFunc0x3e1c7b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DScene.userFunc0x3ed7e90 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // console.log("Three.js create scene");
 // GDの背景を黒くした上で透明にする
@@ -137,7 +137,7 @@ gdjs.evtsExt__WithThreeJS__Create3DScene.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DScene.userFunc0x3e1c7b0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DScene.userFunc0x3ed7e90(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -1364,7 +1364,7 @@ gdjs.modedit_46charteditor2Code.GDfpsObjects1.length = 0;
 }
 
 
-};gdjs.modedit_46charteditor2Code.userFunc0x1b6b958 = function GDJSInlineCode(runtimeScene) {
+};gdjs.modedit_46charteditor2Code.userFunc0x2dee1e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getSixteenthBeatLength(bpm) {
   return (60 / bpm) / 16;
@@ -1416,7 +1416,7 @@ gdjs.copyArray(gdjs.modedit_46charteditor2Code.GDsongnameinputObjects2, gdjs.mod
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x1b6b958(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2dee1e0(runtimeScene);
 
 }
 
@@ -1488,7 +1488,7 @@ gdjs.modedit_46charteditor2Code.eventsList2(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.modedit_46charteditor2Code.userFunc0x1b6b718 = function GDJSInlineCode(runtimeScene) {
+};gdjs.modedit_46charteditor2Code.userFunc0x2dbc708 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getSixteenthBeatLength(bpm) {
   return (60 / bpm) / 16;
@@ -1540,7 +1540,7 @@ gdjs.copyArray(gdjs.modedit_46charteditor2Code.GDsongnameinputObjects5, gdjs.mod
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x1b6b718(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2dbc708(runtimeScene);
 
 }
 
@@ -1993,7 +1993,7 @@ gdjs.modedit_46charteditor2Code.eventsList11(runtimeScene);} //End of subevents
 
 };gdjs.modedit_46charteditor2Code.eventsList17 = function(runtimeScene) {
 
-};gdjs.modedit_46charteditor2Code.userFunc0x1b47c98 = function GDJSInlineCode(runtimeScene) {
+};gdjs.modedit_46charteditor2Code.userFunc0x3f11bf8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getSixteenthBeatLength(bpm) {
   return (60 / bpm) / 16;
@@ -2201,7 +2201,7 @@ gdjs.copyArray(runtimeScene.getObjects("songnametxt"), gdjs.modedit_46chartedito
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x1b47c98(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x3f11bf8(runtimeScene);
 
 }
 
@@ -2862,7 +2862,7 @@ gdjs.copyArray(runtimeScene.getObjects("filesavetxt"), gdjs.modedit_46chartedito
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDfilechartuploadtxtObjects4Objects = Hashtable.newFrom({"filechartuploadtxt": gdjs.modedit_46charteditor2Code.GDfilechartuploadtxtObjects4});
-gdjs.modedit_46charteditor2Code.userFunc0x2871bf0 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x3419220 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getSixteenthBeatLength(bpm) {
   return (60 / bpm) / 16;
@@ -2899,7 +2899,7 @@ gdjs.copyArray(runtimeScene.getObjects("songnameinput"), gdjs.modedit_46chartedi
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x2871bf0(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x3419220(runtimeScene);
 
 }
 
@@ -5599,7 +5599,7 @@ gdjs.modedit_46charteditor2Code.eventsList102(runtimeScene);
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDupdatetxtObjects4Objects = Hashtable.newFrom({"updatetxt": gdjs.modedit_46charteditor2Code.GDupdatetxtObjects4});
-gdjs.modedit_46charteditor2Code.userFunc0x27ee0d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0xc70ff0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getSixteenthBeatLength(bpm) {
   return (60 / bpm) / 16;
@@ -5669,7 +5669,7 @@ gdjs.copyArray(runtimeScene.getObjects("songchartinput"), gdjs.modedit_46charted
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x27ee0d0(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0xc70ff0(runtimeScene);
 
 }
 
@@ -6010,7 +6010,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.modedit_46charteditor2Code.userFunc0x27f4ae0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.modedit_46charteditor2Code.userFunc0xb89e80 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getMeasureLength(bpm) {
   let beatLength = (60 / bpm) * 1000;
@@ -6028,7 +6028,7 @@ gdjs.modedit_46charteditor2Code.eventsList115 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x27f4ae0(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0xb89e80(runtimeScene);
 
 }
 
@@ -6509,7 +6509,7 @@ gdjs.modedit_46charteditor2Code.eventsList133(runtimeScene);
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDsavecharttxtObjects4Objects = Hashtable.newFrom({"savecharttxt": gdjs.modedit_46charteditor2Code.GDsavecharttxtObjects4});
-gdjs.modedit_46charteditor2Code.userFunc0x27f9358 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x3b32d90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log(runtimeScene.getVariables().get("temp").getAsString())
 };
@@ -6518,7 +6518,7 @@ gdjs.modedit_46charteditor2Code.eventsList135 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x27f9358(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x3b32d90(runtimeScene);
 
 }
 
@@ -18206,7 +18206,7 @@ gdjs.modedit_46charteditor2Code.eventsList365 = function(runtimeScene) {
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtileenemyObjects5Objects = Hashtable.newFrom({"tileenemy": gdjs.modedit_46charteditor2Code.GDtileenemyObjects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDleftObjects5Objects = Hashtable.newFrom({"left": gdjs.modedit_46charteditor2Code.GDleftObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x285bd38 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x292f310 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced ",runtimeScene.getVariables().get("tempdata").getAsString())
 };
@@ -18215,14 +18215,14 @@ gdjs.modedit_46charteditor2Code.eventsList366 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x285bd38(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x292f310(runtimeScene);
 
 }
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtileenemy2Objects5Objects = Hashtable.newFrom({"tileenemy2": gdjs.modedit_46charteditor2Code.GDtileenemy2Objects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDdownObjects5Objects = Hashtable.newFrom({"down": gdjs.modedit_46charteditor2Code.GDdownObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x285cba8 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x2930180 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18231,14 +18231,14 @@ gdjs.modedit_46charteditor2Code.eventsList367 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x285cba8(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2930180(runtimeScene);
 
 }
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtileenemy3Objects5Objects = Hashtable.newFrom({"tileenemy3": gdjs.modedit_46charteditor2Code.GDtileenemy3Objects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDupObjects5Objects = Hashtable.newFrom({"up": gdjs.modedit_46charteditor2Code.GDupObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x285d9c8 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x2930fa0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18247,14 +18247,14 @@ gdjs.modedit_46charteditor2Code.eventsList368 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x285d9c8(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2930fa0(runtimeScene);
 
 }
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtileenemy4Objects4Objects = Hashtable.newFrom({"tileenemy4": gdjs.modedit_46charteditor2Code.GDtileenemy4Objects4});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDrightObjects4Objects = Hashtable.newFrom({"right": gdjs.modedit_46charteditor2Code.GDrightObjects4});
-gdjs.modedit_46charteditor2Code.userFunc0x285e7e8 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x2931dc0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18263,7 +18263,7 @@ gdjs.modedit_46charteditor2Code.eventsList369 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x285e7e8(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2931dc0(runtimeScene);
 
 }
 
@@ -18635,7 +18635,7 @@ gdjs.modedit_46charteditor2Code.eventsList371 = function(runtimeScene) {
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtilebf2Objects5Objects = Hashtable.newFrom({"tilebf2": gdjs.modedit_46charteditor2Code.GDtilebf2Objects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDdownObjects5Objects = Hashtable.newFrom({"down": gdjs.modedit_46charteditor2Code.GDdownObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x28604f0 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x2933ac8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18644,7 +18644,7 @@ gdjs.modedit_46charteditor2Code.eventsList372 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x28604f0(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x2933ac8(runtimeScene);
 
 }
 
@@ -18658,7 +18658,7 @@ gdjs.modedit_46charteditor2Code.userFunc0x28604f0(runtimeScene);
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtilebf3Objects5Objects = Hashtable.newFrom({"tilebf3": gdjs.modedit_46charteditor2Code.GDtilebf3Objects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDupObjects5Objects = Hashtable.newFrom({"up": gdjs.modedit_46charteditor2Code.GDupObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x28613d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x29349b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18667,14 +18667,14 @@ gdjs.modedit_46charteditor2Code.eventsList373 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x28613d8(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x29349b0(runtimeScene);
 
 }
 
 
 };gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDtilebf4Objects5Objects = Hashtable.newFrom({"tilebf4": gdjs.modedit_46charteditor2Code.GDtilebf4Objects5});
 gdjs.modedit_46charteditor2Code.mapOfGDgdjs_9546modedit_959546charteditor2Code_9546GDrightObjects5Objects = Hashtable.newFrom({"right": gdjs.modedit_46charteditor2Code.GDrightObjects5});
-gdjs.modedit_46charteditor2Code.userFunc0x28621e8 = function GDJSInlineCode(runtimeScene) {
+gdjs.modedit_46charteditor2Code.userFunc0x29357c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 console.log("leftnoteplaced")
 };
@@ -18683,7 +18683,7 @@ gdjs.modedit_46charteditor2Code.eventsList374 = function(runtimeScene) {
 {
 
 
-gdjs.modedit_46charteditor2Code.userFunc0x28621e8(runtimeScene);
+gdjs.modedit_46charteditor2Code.userFunc0x29357c0(runtimeScene);
 
 }
 

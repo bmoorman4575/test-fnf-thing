@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__fnfesentials__songdeatales !== "undefined") {
 gdjs.evtsExt__fnfesentials__songdeatales = {};
 
 
-gdjs.evtsExt__fnfesentials__songdeatales.userFunc0x19180e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__fnfesentials__songdeatales.userFunc0x453ae58 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 //CONVERT TO MILLISECONDS
 function durationToMilliseconds(duration) {
@@ -70,7 +70,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__fnfesentials__songdeatales.userFunc0x19180e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__fnfesentials__songdeatales.userFunc0x453ae58(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

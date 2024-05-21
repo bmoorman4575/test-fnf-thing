@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource !== "undefin
 gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource = {};
 
 
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource.userFunc0x15bb428 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource.userFunc0x28783d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const resource = eventsFunctionContext.getArgument("Resource");
 const newVideoUrl = eventsFunctionContext.getArgument("NewURL");
@@ -33,7 +33,7 @@ gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource.eventsList0 = function(
 {
 
 
-gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource.userFunc0x15bb428(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__LoadImageFromURL__LoadURLIntovideoResource.userFunc0x28783d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

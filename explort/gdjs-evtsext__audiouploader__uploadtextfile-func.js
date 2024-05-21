@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__audiouploader__UploadTextFile !== "undefined") {
 gdjs.evtsExt__audiouploader__UploadTextFile = {};
 
 
-gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x16930e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x1793b20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["audio/mpeg", "audio/wav", "audio/ogg", "audio/flac", "audio/aac"];
 
@@ -51,7 +51,7 @@ gdjs.evtsExt__audiouploader__UploadTextFile.eventsList0 = function(runtimeScene,
 
 
 var objects = [];
-gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x16930e0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x1793b20(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

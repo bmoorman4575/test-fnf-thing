@@ -2039,7 +2039,7 @@ gdjs.backupCode.eventsList21(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.backupCode.userFunc0x25d2f78 = function GDJSInlineCode(runtimeScene) {
+};gdjs.backupCode.userFunc0x32114a0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 try {
   const channel = "syllabux_1";
@@ -2069,7 +2069,7 @@ gdjs.backupCode.eventsList23 = function(runtimeScene) {
 {
 
 
-gdjs.backupCode.userFunc0x25d2f78(runtimeScene);
+gdjs.backupCode.userFunc0x32114a0(runtimeScene);
 
 }
 
@@ -14722,7 +14722,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.backupCode.userFunc0x26695c0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.backupCode.userFunc0xb875d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function getRemainingTime(duration) {
   // Get the current time in Unix timestamp format (number of seconds since January 1, 1970)
@@ -14751,7 +14751,7 @@ gdjs.backupCode.eventsList292 = function(runtimeScene) {
 {
 
 
-gdjs.backupCode.userFunc0x26695c0(runtimeScene);
+gdjs.backupCode.userFunc0xb875d0(runtimeScene);
 
 }
 
@@ -14859,7 +14859,7 @@ gdjs.copyArray(runtimeScene.getObjects("upmobile"), gdjs.backupCode.GDupmobileOb
 }
 
 
-};gdjs.backupCode.userFunc0x266ad10 = function GDJSInlineCode(runtimeScene) {
+};gdjs.backupCode.userFunc0x3b344f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function secondsToDuration(seconds) {
   // Calculate the number of minutes and seconds
@@ -14883,7 +14883,7 @@ gdjs.backupCode.eventsList295 = function(runtimeScene) {
 {
 
 
-gdjs.backupCode.userFunc0x266ad10(runtimeScene);
+gdjs.backupCode.userFunc0x3b344f0(runtimeScene);
 
 }
 

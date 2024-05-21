@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__howloudissound !== "undefined") {
 gdjs.evtsExt__PlaySound__howloudissound = {};
 
 
-gdjs.evtsExt__PlaySound__howloudissound.userFunc0x3e0bd38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__howloudissound.userFunc0x1add2c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
   const channel = "syllabux_" + eventsFunctionContext.getArgument("channel");
@@ -27,8 +27,12 @@ try {
       // Create a MediaElementSource from the audio source
       const source = audioContext.createMediaElementSource(audioSource);
 
-      // Create a GainNode to split the audio path
-      const gainNode = audioContext.createGain();
+      // Create a GainNode for normal audio playback
+      const normalGainNode = audioContext.createGain();
+
+      // Create a GainNode for maximum volume background audio
+      const maxGainNode = audioContext.createGain();
+      maxGainNode.gain.value = 1.0; // Set to maximum volume
 
       // Create a BiquadFilterNode for band-pass filtering
       const bandPassFilter = audioContext.createBiquadFilter();
@@ -40,12 +44,16 @@ try {
       const analyser = audioContext.createAnalyser();
       bandPassFilter.connect(analyser);
 
-      // Connect the source to both the gain node (for normal playback) and the band-pass filter (for analysis)
-      source.connect(gainNode);
-      source.connect(bandPassFilter);
+      // Connect the source to the normal gain node for normal playback
+      source.connect(normalGainNode);
+      normalGainNode.connect(audioContext.destination);
 
-      // Connect the gain node to the audio context destination for normal playback
-      gainNode.connect(audioContext.destination);
+      // Connect the source to the max gain node for background audio
+      source.connect(maxGainNode);
+      maxGainNode.connect(audioContext.destination);
+
+      // Connect the source to the band-pass filter for analysis
+      source.connect(bandPassFilter);
 
       audioSource.analyser = analyser;
       audioSource.bandPassFilter = bandPassFilter;
@@ -85,7 +93,7 @@ gdjs.evtsExt__PlaySound__howloudissound.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__PlaySound__howloudissound.userFunc0x3e0bd38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__howloudissound.userFunc0x1add2c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

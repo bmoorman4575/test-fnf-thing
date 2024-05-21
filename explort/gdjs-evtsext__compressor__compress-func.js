@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Compressor__Compress !== "undefined") {
 gdjs.evtsExt__Compressor__Compress = {};
 
 
-gdjs.evtsExt__Compressor__Compress.userFunc0x16d7548 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Compressor__Compress.userFunc0x17bc438 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs._pakoTools.buf2binstring(pako.deflate(eventsFunctionContext.getArgument("comp")));
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__Compressor__Compress.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Compressor__Compress.userFunc0x16d7548(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Compressor__Compress.userFunc0x17bc438(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

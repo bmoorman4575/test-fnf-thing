@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld = {};
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld.userFunc0x3c47348 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld.userFunc0x14beaa0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -49,7 +49,7 @@ gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld.eventsList0 = function(runtimeS
 {
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld.userFunc0x3c47348(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Rotate3DObjectOnWorld.userFunc0x14beaa0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
