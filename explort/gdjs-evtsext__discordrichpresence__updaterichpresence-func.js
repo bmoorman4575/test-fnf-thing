@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence !== "undefined"
 gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence = {};
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x3ea2dc0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1728e08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.evtTools.discordRP.client) return;
 
@@ -36,7 +36,7 @@ gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x3ea2dc0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.userFunc0x1728e08(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -51,6 +51,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("DiscordRichPresence"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("DiscordRichPresence"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

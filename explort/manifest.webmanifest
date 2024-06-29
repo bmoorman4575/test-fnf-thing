@@ -2,7 +2,7 @@
   "name": "fnf in gdevelop",
   "short_name": "fnf in gdevelop",
   "id": "com.example.gamename",
-  "description": "[THIS IS VERY OLD AND UN-OPTIMISED]\nThis project has been on pause for awile now because i'm working on other stuff.\nI dont know how long it will be before i pick it up again.                :>\n--------------------------------------------------------------------------------------------\nThis is Friday Night Funkin' in GDevelop. I wanted to make this to see if I could make this!\nthe only song right now is my friends singing triple trouble (i know its spelt wrong in game)\nthe original song and the backround is from the sonic exe 2.0 update!\nhttps://gamebanana.com/mods/316022\nHave fun :D",
+  "description": "\n[THIS BUID IS VERY OLD AND UNOPTIMISED]\nThis project has been on pause for awile now because i'm working on other stuff.\nI dont know how long it will be before i pick it up again.                :>\n--------------------------------------------------------------------------------------------\nThis is Friday Night Funkin' in GDevelop. I wanted to make this to see if I could make this!\nthe only song right now is my friends singing triple trouble (i know its spelt wrong in game)\nthe original song and the backround is from the sonic exe 2.0 update!\nhttps://gamebanana.com/mods/316022\nHave fun :D",
   "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",

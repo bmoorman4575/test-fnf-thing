@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable !== "undefined")
 gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable = {};
 
 
-gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable.userFunc0x3e9b968 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable.userFunc0x15d7090 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 runtimeScene.getVariables().remove(eventsFunctionContext.getArgument("SceneVariableName"));
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable.userFunc0x3e9b968(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ExtendedVariables__DeleteSceneVariable.userFunc0x15d7090(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -32,6 +32,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ExtendedVariables"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ExtendedVariables"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

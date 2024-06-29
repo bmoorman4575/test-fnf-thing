@@ -91,6 +91,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

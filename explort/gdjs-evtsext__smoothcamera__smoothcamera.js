@@ -169,6 +169,163 @@ gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera = class SmoothCamera exten
     return true;
   }
 
+  // Network sync:
+  getNetworkSyncData() {
+    return {
+      ...super.getNetworkSyncData(),
+      props: {
+        
+    LeftwardSpeed: this._behaviorData.LeftwardSpeed,
+    RightwardSpeed: this._behaviorData.RightwardSpeed,
+    UpwardSpeed: this._behaviorData.UpwardSpeed,
+    DownwardSpeed: this._behaviorData.DownwardSpeed,
+    FollowOnX: this._behaviorData.FollowOnX,
+    FollowOnY: this._behaviorData.FollowOnY,
+    FollowFreeAreaLeft: this._behaviorData.FollowFreeAreaLeft,
+    FollowFreeAreaRight: this._behaviorData.FollowFreeAreaRight,
+    FollowFreeAreaTop: this._behaviorData.FollowFreeAreaTop,
+    FollowFreeAreaBottom: this._behaviorData.FollowFreeAreaBottom,
+    CameraOffsetX: this._behaviorData.CameraOffsetX,
+    CameraOffsetY: this._behaviorData.CameraOffsetY,
+    CameraDelay: this._behaviorData.CameraDelay,
+    ForecastTime: this._behaviorData.ForecastTime,
+    ForecastHistoryDuration: this._behaviorData.ForecastHistoryDuration,
+    LogLeftwardSpeed: this._behaviorData.LogLeftwardSpeed,
+    LogRightwardSpeed: this._behaviorData.LogRightwardSpeed,
+    LogDownwardSpeed: this._behaviorData.LogDownwardSpeed,
+    LogUpwardSpeed: this._behaviorData.LogUpwardSpeed,
+    DelayedCenterX: this._behaviorData.DelayedCenterX,
+    DelayedCenterY: this._behaviorData.DelayedCenterY,
+    ForecastHistoryMeanX: this._behaviorData.ForecastHistoryMeanX,
+    ForecastHistoryMeanY: this._behaviorData.ForecastHistoryMeanY,
+    ForecastHistoryVarianceX: this._behaviorData.ForecastHistoryVarianceX,
+    ForecastHistoryCovariance: this._behaviorData.ForecastHistoryCovariance,
+    ForecastHistoryLinearA: this._behaviorData.ForecastHistoryLinearA,
+    ForecastHistoryLinearB: this._behaviorData.ForecastHistoryLinearB,
+    ForecastedX: this._behaviorData.ForecastedX,
+    ForecastedY: this._behaviorData.ForecastedY,
+    ProjectedNewestX: this._behaviorData.ProjectedNewestX,
+    ProjectedNewestY: this._behaviorData.ProjectedNewestY,
+    ProjectedOldestX: this._behaviorData.ProjectedOldestX,
+    ProjectedOldestY: this._behaviorData.ProjectedOldestY,
+    ForecastHistoryVarianceY: this._behaviorData.ForecastHistoryVarianceY,
+    Index: this._behaviorData.Index,
+    CameraDelayCatchUpSpeed: this._behaviorData.CameraDelayCatchUpSpeed,
+    CameraExtraDelay: this._behaviorData.CameraExtraDelay,
+    WaitingSpeedXMax: this._behaviorData.WaitingSpeedXMax,
+    WaitingSpeedYMax: this._behaviorData.WaitingSpeedYMax,
+    WaitingEnd: this._behaviorData.WaitingEnd,
+    CameraDelayCatchUpDuration: this._behaviorData.CameraDelayCatchUpDuration,
+    LeftwardSpeedMax: this._behaviorData.LeftwardSpeedMax,
+    RightwardSpeedMax: this._behaviorData.RightwardSpeedMax,
+    UpwardSpeedMax: this._behaviorData.UpwardSpeedMax,
+    DownwardSpeedMax: this._behaviorData.DownwardSpeedMax,
+    OldX: this._behaviorData.OldX,
+    OldY: this._behaviorData.OldY,
+    IsCalledManually: this._behaviorData.IsCalledManually,
+      }
+    };
+  }
+  updateFromNetworkSyncData(networkSyncData) {
+    
+    if (networkSyncData.props.LeftwardSpeed !== undefined)
+      this._behaviorData.LeftwardSpeed = networkSyncData.props.LeftwardSpeed;
+    if (networkSyncData.props.RightwardSpeed !== undefined)
+      this._behaviorData.RightwardSpeed = networkSyncData.props.RightwardSpeed;
+    if (networkSyncData.props.UpwardSpeed !== undefined)
+      this._behaviorData.UpwardSpeed = networkSyncData.props.UpwardSpeed;
+    if (networkSyncData.props.DownwardSpeed !== undefined)
+      this._behaviorData.DownwardSpeed = networkSyncData.props.DownwardSpeed;
+    if (networkSyncData.props.FollowOnX !== undefined)
+      this._behaviorData.FollowOnX = networkSyncData.props.FollowOnX;
+    if (networkSyncData.props.FollowOnY !== undefined)
+      this._behaviorData.FollowOnY = networkSyncData.props.FollowOnY;
+    if (networkSyncData.props.FollowFreeAreaLeft !== undefined)
+      this._behaviorData.FollowFreeAreaLeft = networkSyncData.props.FollowFreeAreaLeft;
+    if (networkSyncData.props.FollowFreeAreaRight !== undefined)
+      this._behaviorData.FollowFreeAreaRight = networkSyncData.props.FollowFreeAreaRight;
+    if (networkSyncData.props.FollowFreeAreaTop !== undefined)
+      this._behaviorData.FollowFreeAreaTop = networkSyncData.props.FollowFreeAreaTop;
+    if (networkSyncData.props.FollowFreeAreaBottom !== undefined)
+      this._behaviorData.FollowFreeAreaBottom = networkSyncData.props.FollowFreeAreaBottom;
+    if (networkSyncData.props.CameraOffsetX !== undefined)
+      this._behaviorData.CameraOffsetX = networkSyncData.props.CameraOffsetX;
+    if (networkSyncData.props.CameraOffsetY !== undefined)
+      this._behaviorData.CameraOffsetY = networkSyncData.props.CameraOffsetY;
+    if (networkSyncData.props.CameraDelay !== undefined)
+      this._behaviorData.CameraDelay = networkSyncData.props.CameraDelay;
+    if (networkSyncData.props.ForecastTime !== undefined)
+      this._behaviorData.ForecastTime = networkSyncData.props.ForecastTime;
+    if (networkSyncData.props.ForecastHistoryDuration !== undefined)
+      this._behaviorData.ForecastHistoryDuration = networkSyncData.props.ForecastHistoryDuration;
+    if (networkSyncData.props.LogLeftwardSpeed !== undefined)
+      this._behaviorData.LogLeftwardSpeed = networkSyncData.props.LogLeftwardSpeed;
+    if (networkSyncData.props.LogRightwardSpeed !== undefined)
+      this._behaviorData.LogRightwardSpeed = networkSyncData.props.LogRightwardSpeed;
+    if (networkSyncData.props.LogDownwardSpeed !== undefined)
+      this._behaviorData.LogDownwardSpeed = networkSyncData.props.LogDownwardSpeed;
+    if (networkSyncData.props.LogUpwardSpeed !== undefined)
+      this._behaviorData.LogUpwardSpeed = networkSyncData.props.LogUpwardSpeed;
+    if (networkSyncData.props.DelayedCenterX !== undefined)
+      this._behaviorData.DelayedCenterX = networkSyncData.props.DelayedCenterX;
+    if (networkSyncData.props.DelayedCenterY !== undefined)
+      this._behaviorData.DelayedCenterY = networkSyncData.props.DelayedCenterY;
+    if (networkSyncData.props.ForecastHistoryMeanX !== undefined)
+      this._behaviorData.ForecastHistoryMeanX = networkSyncData.props.ForecastHistoryMeanX;
+    if (networkSyncData.props.ForecastHistoryMeanY !== undefined)
+      this._behaviorData.ForecastHistoryMeanY = networkSyncData.props.ForecastHistoryMeanY;
+    if (networkSyncData.props.ForecastHistoryVarianceX !== undefined)
+      this._behaviorData.ForecastHistoryVarianceX = networkSyncData.props.ForecastHistoryVarianceX;
+    if (networkSyncData.props.ForecastHistoryCovariance !== undefined)
+      this._behaviorData.ForecastHistoryCovariance = networkSyncData.props.ForecastHistoryCovariance;
+    if (networkSyncData.props.ForecastHistoryLinearA !== undefined)
+      this._behaviorData.ForecastHistoryLinearA = networkSyncData.props.ForecastHistoryLinearA;
+    if (networkSyncData.props.ForecastHistoryLinearB !== undefined)
+      this._behaviorData.ForecastHistoryLinearB = networkSyncData.props.ForecastHistoryLinearB;
+    if (networkSyncData.props.ForecastedX !== undefined)
+      this._behaviorData.ForecastedX = networkSyncData.props.ForecastedX;
+    if (networkSyncData.props.ForecastedY !== undefined)
+      this._behaviorData.ForecastedY = networkSyncData.props.ForecastedY;
+    if (networkSyncData.props.ProjectedNewestX !== undefined)
+      this._behaviorData.ProjectedNewestX = networkSyncData.props.ProjectedNewestX;
+    if (networkSyncData.props.ProjectedNewestY !== undefined)
+      this._behaviorData.ProjectedNewestY = networkSyncData.props.ProjectedNewestY;
+    if (networkSyncData.props.ProjectedOldestX !== undefined)
+      this._behaviorData.ProjectedOldestX = networkSyncData.props.ProjectedOldestX;
+    if (networkSyncData.props.ProjectedOldestY !== undefined)
+      this._behaviorData.ProjectedOldestY = networkSyncData.props.ProjectedOldestY;
+    if (networkSyncData.props.ForecastHistoryVarianceY !== undefined)
+      this._behaviorData.ForecastHistoryVarianceY = networkSyncData.props.ForecastHistoryVarianceY;
+    if (networkSyncData.props.Index !== undefined)
+      this._behaviorData.Index = networkSyncData.props.Index;
+    if (networkSyncData.props.CameraDelayCatchUpSpeed !== undefined)
+      this._behaviorData.CameraDelayCatchUpSpeed = networkSyncData.props.CameraDelayCatchUpSpeed;
+    if (networkSyncData.props.CameraExtraDelay !== undefined)
+      this._behaviorData.CameraExtraDelay = networkSyncData.props.CameraExtraDelay;
+    if (networkSyncData.props.WaitingSpeedXMax !== undefined)
+      this._behaviorData.WaitingSpeedXMax = networkSyncData.props.WaitingSpeedXMax;
+    if (networkSyncData.props.WaitingSpeedYMax !== undefined)
+      this._behaviorData.WaitingSpeedYMax = networkSyncData.props.WaitingSpeedYMax;
+    if (networkSyncData.props.WaitingEnd !== undefined)
+      this._behaviorData.WaitingEnd = networkSyncData.props.WaitingEnd;
+    if (networkSyncData.props.CameraDelayCatchUpDuration !== undefined)
+      this._behaviorData.CameraDelayCatchUpDuration = networkSyncData.props.CameraDelayCatchUpDuration;
+    if (networkSyncData.props.LeftwardSpeedMax !== undefined)
+      this._behaviorData.LeftwardSpeedMax = networkSyncData.props.LeftwardSpeedMax;
+    if (networkSyncData.props.RightwardSpeedMax !== undefined)
+      this._behaviorData.RightwardSpeedMax = networkSyncData.props.RightwardSpeedMax;
+    if (networkSyncData.props.UpwardSpeedMax !== undefined)
+      this._behaviorData.UpwardSpeedMax = networkSyncData.props.UpwardSpeedMax;
+    if (networkSyncData.props.DownwardSpeedMax !== undefined)
+      this._behaviorData.DownwardSpeedMax = networkSyncData.props.DownwardSpeedMax;
+    if (networkSyncData.props.OldX !== undefined)
+      this._behaviorData.OldX = networkSyncData.props.OldX;
+    if (networkSyncData.props.OldY !== undefined)
+      this._behaviorData.OldY = networkSyncData.props.OldY;
+    if (networkSyncData.props.IsCalledManually !== undefined)
+      this._behaviorData.IsCalledManually = networkSyncData.props.IsCalledManually;
+  }
+
   // Properties:
   
   _getLeftwardSpeed() {
@@ -578,6 +735,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -677,6 +837,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -776,6 +939,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1083,6 +1249,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1196,6 +1365,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1545,6 +1717,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1655,6 +1830,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1762,6 +1940,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1852,6 +2033,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1942,6 +2126,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2032,6 +2219,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2122,6 +2312,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2212,6 +2405,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2302,6 +2498,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2392,6 +2591,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2482,6 +2684,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2575,6 +2780,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2668,6 +2876,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2761,6 +2972,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2854,6 +3068,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -2941,6 +3158,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3030,6 +3250,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3127,6 +3350,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3214,6 +3440,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3310,6 +3539,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3400,6 +3632,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3490,6 +3725,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3580,6 +3818,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3667,6 +3908,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3753,6 +3997,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3839,6 +4086,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -3925,6 +4175,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -4399,7 +4652,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera
 gdjs.evtsExt__SmoothCamera__SmoothCamera.SmoothCamera.prototype.UpdateDelayedPositionContext.GDObjectObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67504892);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87978436);
 }
 }
 if (isConditionTrue_0) {
@@ -4472,6 +4725,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -4562,6 +4818,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -4648,6 +4907,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -4743,6 +5005,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -4944,6 +5209,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -5655,6 +5923,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -5774,6 +6045,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -5864,6 +6138,9 @@ var eventsFunctionContext = {
   _behaviorNamesMap: {
 "Behavior": Behavior
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SmoothCamera"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SmoothCamera"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

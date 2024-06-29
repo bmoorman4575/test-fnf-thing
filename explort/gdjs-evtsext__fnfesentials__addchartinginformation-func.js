@@ -15,7 +15,7 @@ gdjs.evtsExt__fnfesentials__addchartinginformation.eventsList0 = function(runtim
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67356140);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87826476);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().get("tempchart").setNumber((typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("chart")) || 0 : 0));
@@ -34,6 +34,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

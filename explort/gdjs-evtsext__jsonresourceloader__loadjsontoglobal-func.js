@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal !== "undefined") {
 gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal = {};
 
 
-gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x85b840 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext
     .getArgument("Variable")
@@ -25,7 +25,7 @@ gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x85b840(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__JSONResourceLoader__LoadJSONToGlobal.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -40,6 +40,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("JSONResourceLoader"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("JSONResourceLoader"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

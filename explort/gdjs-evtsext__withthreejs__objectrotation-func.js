@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ObjectRotation !== "undefined") {
 gdjs.evtsExt__WithThreeJS__ObjectRotation = {};
 
 
-gdjs.evtsExt__WithThreeJS__ObjectRotation.userFunc0xaed8d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ObjectRotation.userFunc0x4f39d48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -39,7 +39,7 @@ gdjs.evtsExt__WithThreeJS__ObjectRotation.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__WithThreeJS__ObjectRotation.userFunc0xaed8d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ObjectRotation.userFunc0x4f39d48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -54,6 +54,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("WithThreeJS"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("WithThreeJS"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

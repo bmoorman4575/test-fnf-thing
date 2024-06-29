@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__imageuploader__DownloadTextFile !== "undefined") {
 gdjs.evtsExt__imageuploader__DownloadTextFile = {};
 
 
-gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x1793b20 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x16d46e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function DownloadTextContent(filename, mimeType,content) {
     var link = document.createElement('a')
@@ -31,7 +31,7 @@ gdjs.evtsExt__imageuploader__DownloadTextFile.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x1793b20(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__imageuploader__DownloadTextFile.userFunc0x16d46e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -46,6 +46,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("imageuploader"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("imageuploader"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

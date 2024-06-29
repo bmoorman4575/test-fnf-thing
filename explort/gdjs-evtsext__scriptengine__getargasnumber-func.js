@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__GetArgAsNumber !== "undefined") {
 gdjs.evtsExt__ScriptEngine__GetArgAsNumber = {};
 
 
-gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x16f5ee0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const index = eventsFunctionContext.getArgument("index");
 eventsFunctionContext.returnValue = gdjs.currentArgs.length < index ? -1 : gdjs.currentArgs[index];
@@ -19,7 +19,7 @@ gdjs.evtsExt__ScriptEngine__GetArgAsNumber.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x16f5ee0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__GetArgAsNumber.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -34,6 +34,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ScriptEngine"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ScriptEngine"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

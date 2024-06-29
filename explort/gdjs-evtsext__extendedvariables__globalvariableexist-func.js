@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ExtendedVariables__GlobalVariableExist !== "undefined")
 gdjs.evtsExt__ExtendedVariables__GlobalVariableExist = {};
 
 
-gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x15badd0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const globalVariables = runtimeScene.getGame().getVariables();
 eventsFunctionContext.returnValue = globalVariables.has(eventsFunctionContext.getArgument("GlobalVariableName"));
@@ -18,7 +18,7 @@ gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x15badd0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ExtendedVariables__GlobalVariableExist.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -33,6 +33,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ExtendedVariables"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ExtendedVariables"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

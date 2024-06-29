@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene !== "undef
 gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene = {};
 
 
-gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene.userFunc0x3cdf0e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene.userFunc0x16baa60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const globalVariable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument("globalVariableName"));
 const sceneVariable = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("sceneVariableName"));
@@ -22,7 +22,7 @@ gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene.eventsList0 = functio
 {
 
 
-gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene.userFunc0x3cdf0e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ExtendedVariables__CopyGlobalVariableToScene.userFunc0x16baa60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -37,6 +37,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ExtendedVariables"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ExtendedVariables"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__audiouploader__UploadTextFile !== "undefined") {
 gdjs.evtsExt__audiouploader__UploadTextFile = {};
 
 
-gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x1793b20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x16d46e8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["audio/mpeg", "audio/wav", "audio/ogg", "audio/flac", "audio/aac"];
 
@@ -51,7 +51,7 @@ gdjs.evtsExt__audiouploader__UploadTextFile.eventsList0 = function(runtimeScene,
 
 
 var objects = [];
-gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x1793b20(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__audiouploader__UploadTextFile.userFunc0x16d46e8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -66,6 +66,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("audiouploader"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("audiouploader"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

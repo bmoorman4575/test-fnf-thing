@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__MousePointerLock__MovementY !== "undefined") {
 gdjs.evtsExt__MousePointerLock__MovementY = {};
 
 
-gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x14a06d8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x169dff8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.y || 0;
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__MousePointerLock__MovementY.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x14a06d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__MousePointerLock__MovementY.userFunc0x169dff8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -32,6 +32,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("MousePointerLock"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("MousePointerLock"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

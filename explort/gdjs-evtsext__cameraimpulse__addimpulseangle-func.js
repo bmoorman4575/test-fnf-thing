@@ -31,6 +31,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("CameraImpulse"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("CameraImpulse"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

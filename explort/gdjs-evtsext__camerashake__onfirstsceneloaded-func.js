@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__CameraShake__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__CameraShake__onFirstSceneLoaded.userFunc0x1bd9c90 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake__onFirstSceneLoaded.userFunc0x174ef10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._cameraShakeExtension = gdjs._cameraShakeExtension || {};
 
@@ -648,7 +648,7 @@ gdjs.evtsExt__CameraShake__onFirstSceneLoaded.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__CameraShake__onFirstSceneLoaded.userFunc0x1bd9c90(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake__onFirstSceneLoaded.userFunc0x174ef10(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -663,6 +663,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("CameraShake"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("CameraShake"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

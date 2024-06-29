@@ -529,7 +529,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67376884);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87847772);
 }
 }
 if (isConditionTrue_0) {
@@ -602,7 +602,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("doneloading")) == 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67371492);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87842220);
 }
 }
 if (isConditionTrue_0) {
@@ -686,6 +686,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

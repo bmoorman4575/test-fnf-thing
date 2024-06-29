@@ -66,6 +66,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("rhythmgame"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("rhythmgame"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

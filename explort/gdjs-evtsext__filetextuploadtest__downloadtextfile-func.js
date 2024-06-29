@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__filetextuploadtest__DownloadTextFile !== "undefined") {
 gdjs.evtsExt__filetextuploadtest__DownloadTextFile = {};
 
 
-gdjs.evtsExt__filetextuploadtest__DownloadTextFile.userFunc0x3d93890 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__filetextuploadtest__DownloadTextFile.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 function DownloadImageContent(filename, mimeType, dataUrl) {
   var link = document.createElement('a');
@@ -49,7 +49,7 @@ gdjs.evtsExt__filetextuploadtest__DownloadTextFile.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__filetextuploadtest__DownloadTextFile.userFunc0x3d93890(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__filetextuploadtest__DownloadTextFile.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -64,6 +64,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("filetextuploadtest"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("filetextuploadtest"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

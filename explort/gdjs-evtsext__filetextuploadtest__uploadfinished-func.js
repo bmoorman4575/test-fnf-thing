@@ -44,6 +44,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("filetextuploadtest"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("filetextuploadtest"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

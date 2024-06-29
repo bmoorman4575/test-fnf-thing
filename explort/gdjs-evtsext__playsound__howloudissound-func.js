@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__howloudissound !== "undefined") {
 gdjs.evtsExt__PlaySound__howloudissound = {};
 
 
-gdjs.evtsExt__PlaySound__howloudissound.userFunc0x1add2c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__howloudissound.userFunc0x4f70460 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
   const channel = "syllabux_" + eventsFunctionContext.getArgument("channel");
@@ -93,7 +93,7 @@ gdjs.evtsExt__PlaySound__howloudissound.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__PlaySound__howloudissound.userFunc0x1add2c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__howloudissound.userFunc0x4f70460(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -118,6 +118,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PlaySound"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PlaySound"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

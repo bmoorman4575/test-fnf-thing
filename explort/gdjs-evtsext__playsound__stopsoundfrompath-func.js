@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__StopSoundFromPath !== "undefined") {
 gdjs.evtsExt__PlaySound__StopSoundFromPath = {};
 
 
-gdjs.evtsExt__PlaySound__StopSoundFromPath.userFunc0x1add2c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__StopSoundFromPath.userFunc0x1622f70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try{
 const channel = "syllabux_"+eventsFunctionContext.getArgument("channel");
@@ -25,7 +25,7 @@ gdjs.evtsExt__PlaySound__StopSoundFromPath.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__PlaySound__StopSoundFromPath.userFunc0x1add2c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__StopSoundFromPath.userFunc0x1622f70(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -40,6 +40,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PlaySound"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PlaySound"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

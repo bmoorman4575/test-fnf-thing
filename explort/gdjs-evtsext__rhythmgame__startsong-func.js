@@ -32,7 +32,7 @@ let isConditionTrue_0 = false;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67926668);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(88423356);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().get("tempvar1").setNumber(60000 / (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("BPM")) || 0 : 0));
@@ -63,6 +63,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("rhythmgame"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("rhythmgame"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -191,6 +191,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -349,6 +352,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -444,6 +450,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -545,6 +554,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -593,6 +605,318 @@ gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototyp
 gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.IsCheckedContext.GDStateObjects2.length = 0;
 
 gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.IsCheckedContext.eventsList0(runtimeScene, eventsFunctionContext);
+
+return !!eventsFunctionContext.returnValue;
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext = {};
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDObjectObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDObjectObjects2= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects2= [];
+
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("State"), gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("SwitchFSM")).HasJustBeenChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1[k] = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1.length = k;
+if (isConditionTrue_0) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenChecked = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._instanceContainer;
+var thisObjectList = [this];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var thisGDStateObjectsList = [...runtimeScene.getObjects("State")];
+var GDStateObjects = Hashtable.newFrom({"State": thisGDStateObjectsList});
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+, "State": GDStateObjects
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+, "State": thisGDStateObjectsList
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.GDStateObjects2.length = 0;
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenCheckedContext.eventsList0(runtimeScene, eventsFunctionContext);
+
+return !!eventsFunctionContext.returnValue;
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext = {};
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDObjectObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDObjectObjects2= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects2= [];
+
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("State"), gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("SwitchFSM")).HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1[k] = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1.length = k;
+if (isConditionTrue_0) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUnchecked = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._instanceContainer;
+var thisObjectList = [this];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var thisGDStateObjectsList = [...runtimeScene.getObjects("State")];
+var GDStateObjects = Hashtable.newFrom({"State": thisGDStateObjectsList});
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+, "State": GDStateObjects
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+, "State": thisGDStateObjectsList
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.GDStateObjects2.length = 0;
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenUncheckedContext.eventsList0(runtimeScene, eventsFunctionContext);
+
+return !!eventsFunctionContext.returnValue;
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext = {};
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDObjectObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDObjectObjects2= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects2= [];
+
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+gdjs.copyArray(eventsFunctionContext.getObjects("State"), gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1.length;i<l;++i) {
+    if ( gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("SwitchFSM")).HasJustBeenToggled((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1[k] = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1[i];
+        ++k;
+    }
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1.length = k;
+if (isConditionTrue_0) {
+{if (typeof eventsFunctionContext !== 'undefined') { eventsFunctionContext.returnValue = true; }}}
+
+}
+
+
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggled = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._instanceContainer;
+var thisObjectList = [this];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var thisGDStateObjectsList = [...runtimeScene.getObjects("State")];
+var GDStateObjects = Hashtable.newFrom({"State": thisGDStateObjectsList});
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+, "State": GDStateObjects
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+, "State": thisGDStateObjectsList
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.GDStateObjects2.length = 0;
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.HasJustBeenToggledContext.eventsList0(runtimeScene, eventsFunctionContext);
 
 return !!eventsFunctionContext.returnValue;
 }
@@ -660,6 +984,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -709,6 +1036,104 @@ gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototyp
 gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.SetCheckedContext.GDStateObjects2.length = 0;
 
 gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.SetCheckedContext.eventsList0(runtimeScene, eventsFunctionContext);
+
+return;
+}
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext = {};
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDObjectObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDObjectObjects2= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects1= [];
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects2= [];
+
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(eventsFunctionContext.getObjects("State"), gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects1);
+{for(var i = 0, len = gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects1.length ;i < len;++i) {
+    gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("SwitchFSM")).ToggleChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleChecked = function(parentEventsFunctionContext) {
+
+var that = this;
+var runtimeScene = this._instanceContainer;
+var thisObjectList = [this];
+var Object = Hashtable.newFrom({Object: thisObjectList});
+var thisGDStateObjectsList = [...runtimeScene.getObjects("State")];
+var GDStateObjects = Hashtable.newFrom({"State": thisGDStateObjectsList});
+var eventsFunctionContext = {
+  _objectsMap: {
+"Object": Object
+, "State": GDStateObjects
+},
+  _objectArraysMap: {
+"Object": thisObjectList
+, "State": thisGDStateObjectsList
+},
+  _behaviorNamesMap: {
+},
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
+  getObjects: function(objectName) {
+    return eventsFunctionContext._objectArraysMap[objectName] || [];
+  },
+  getObjectsLists: function(objectName) {
+    return eventsFunctionContext._objectsMap[objectName] || null;
+  },
+  getBehaviorName: function(behaviorName) {
+    return eventsFunctionContext._behaviorNamesMap[behaviorName] || behaviorName;
+  },
+  createObject: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    if (objectsList) {
+      const object = parentEventsFunctionContext ?
+        parentEventsFunctionContext.createObject(objectsList.firstKey()) :
+        runtimeScene.createObject(objectsList.firstKey());
+      if (object) {
+        objectsList.get(objectsList.firstKey()).push(object);
+        eventsFunctionContext._objectArraysMap[objectName].push(object);
+      }
+      return object;    }
+    return null;
+  },
+  getInstancesCountOnScene: function(objectName) {
+    const objectsList = eventsFunctionContext._objectsMap[objectName];
+    let count = 0;
+    if (objectsList) {
+      for(const objectName in objectsList.items)
+        count += parentEventsFunctionContext ?
+parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
+        runtimeScene.getInstancesCountOnScene(objectName);
+    }
+    return count;
+  },
+  getLayer: function(layerName) {
+    return runtimeScene.getLayer(layerName);
+  },
+  getArgument: function(argName) {
+    return "";
+  },
+  getOnceTriggers: function() { return that._onceTriggers; }
+};
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects1.length = 0;
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.GDStateObjects2.length = 0;
+
+gdjs.evtsExt__SpriteToggleSwitch__SpriteToggleSwitch.SpriteToggleSwitch.prototype.ToggleCheckedContext.eventsList0(runtimeScene, eventsFunctionContext);
 
 return;
 }
@@ -762,6 +1187,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -863,6 +1291,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -964,6 +1395,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1065,6 +1499,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1166,6 +1603,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1325,6 +1765,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1440,6 +1883,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
@@ -1542,6 +1988,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteToggleSwitch"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteToggleSwitch"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

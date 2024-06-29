@@ -56,7 +56,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "fullscreentimer") > 1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67340956);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87810956);
 }
 }
 }
@@ -100,7 +100,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.window.isFullScreen(runtimeScene));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67336580);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87806532);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -144,7 +144,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Dash");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67348356);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87818484);
 }
 }
 if (isConditionTrue_0) {
@@ -163,7 +163,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Equal");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67349284);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87819500);
 }
 }
 if (isConditionTrue_0) {
@@ -184,6 +184,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

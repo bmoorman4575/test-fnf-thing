@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Load3DTextureV2 !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Load3DTextureV2 = {};
 
 
-gdjs.evtsExt__WithThreeJS__Load3DTextureV2.userFunc0x1616428 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Load3DTextureV2.userFunc0x17e1d88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -45,7 +45,7 @@ gdjs.evtsExt__WithThreeJS__Load3DTextureV2.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WithThreeJS__Load3DTextureV2.userFunc0x1616428(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Load3DTextureV2.userFunc0x17e1d88(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -60,6 +60,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("WithThreeJS"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("WithThreeJS"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

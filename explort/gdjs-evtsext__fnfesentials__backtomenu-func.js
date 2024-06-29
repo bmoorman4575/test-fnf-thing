@@ -8,7 +8,8 @@ if (typeof gdjs.evtsExt__fnfesentials__backtomenu !== "undefined") {
 gdjs.evtsExt__fnfesentials__backtomenu = {};
 
 
-gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback67415316 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback87887124 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu", false);
 }}
 gdjs.evtsExt__fnfesentials__backtomenu.eventsList0 = function(runtimeScene, eventsFunctionContext) {
@@ -19,7 +20,8 @@ gdjs.evtsExt__fnfesentials__backtomenu.eventsList0 = function(runtimeScene, even
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback67415316(runtimeScene, eventsFunctionContext, asyncObjectsList)));
+asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__fnfesentials__backtomenu.asyncCallback87887124(runtimeScene, eventsFunctionContext, asyncObjectsList)));
 }
 }
 
@@ -33,7 +35,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67414996);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87886804);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.unloadAllAudio(runtimeScene);
@@ -55,6 +57,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

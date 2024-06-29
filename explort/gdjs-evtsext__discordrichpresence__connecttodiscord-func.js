@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord !== "undefined") 
 gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord = {};
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x17bc438 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x171a910 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const remote = runtimeScene.getGame().getRenderer().getElectronRemote
     ? runtimeScene.getGame().getRenderer().getElectronRemote()
@@ -29,7 +29,7 @@ gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x17bc438(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x171a910(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -44,6 +44,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("DiscordRichPresence"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("DiscordRichPresence"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

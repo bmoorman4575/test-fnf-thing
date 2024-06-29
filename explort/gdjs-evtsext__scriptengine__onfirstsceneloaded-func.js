@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x1aed520 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /**
  * The API disponible for scripts.
@@ -36,7 +36,7 @@ gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x1aed520(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__onFirstSceneLoaded.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -51,6 +51,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ScriptEngine"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ScriptEngine"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__filetextuploadtest__UploadTextFile !== "undefined") {
 gdjs.evtsExt__filetextuploadtest__UploadTextFile = {};
 
 
-gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x2d78118 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const allowedFileTypes = ["image/png", "image/jpeg"];
 
@@ -67,7 +67,7 @@ gdjs.evtsExt__filetextuploadtest__UploadTextFile.eventsList0 = function(runtimeS
 
 
 var objects = [];
-gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x2d78118(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__filetextuploadtest__UploadTextFile.userFunc0x1635028(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -89,6 +89,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("filetextuploadtest"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("filetextuploadtest"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

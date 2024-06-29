@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Gamepads__A_Vibrate_controller !== "undefined") {
 gdjs.evtsExt__Gamepads__A_Vibrate_controller = {};
 
 
-gdjs.evtsExt__Gamepads__A_Vibrate_controller.userFunc0x3ba53f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Vibrate_controller.userFunc0x171a910 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 //Vibration work only on game in browser.
@@ -52,7 +52,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__Gamepads__A_Vibrate_controller.userFunc0x3ba53f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Gamepads__A_Vibrate_controller.userFunc0x171a910(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -67,6 +67,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Gamepads"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Gamepads"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

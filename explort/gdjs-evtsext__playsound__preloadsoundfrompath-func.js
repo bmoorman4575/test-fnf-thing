@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__PreloadSoundFromPath !== "undefined") {
 gdjs.evtsExt__PlaySound__PreloadSoundFromPath = {};
 
 
-gdjs.evtsExt__PlaySound__PreloadSoundFromPath.userFunc0x2fce580 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__PreloadSoundFromPath.userFunc0x160d6c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const audios = eventsFunctionContext.getArgument("SoundFiles");
 const audioFiles = audios.split(',');
@@ -50,7 +50,7 @@ gdjs.evtsExt__PlaySound__PreloadSoundFromPath.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__PlaySound__PreloadSoundFromPath.userFunc0x2fce580(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__PreloadSoundFromPath.userFunc0x160d6c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -65,6 +65,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PlaySound"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PlaySound"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

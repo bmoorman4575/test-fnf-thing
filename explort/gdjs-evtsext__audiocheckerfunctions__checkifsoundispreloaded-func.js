@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded !== "und
 gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded = {};
 
 
-gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded.userFunc0x2d8a8f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded.userFunc0x16baa60 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const SoundManager = runtimeScene.getGame().getSoundManager();
 const FullPath = eventsFunctionContext.getArgument("Filename");
@@ -31,7 +31,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded.userFunc0x2d8a8f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__AudioCheckerFunctions__CheckIfSoundIsPreloaded.userFunc0x16baa60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -46,6 +46,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AudioCheckerFunctions"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AudioCheckerFunctions"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

@@ -38,6 +38,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AlignObject"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AlignObject"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

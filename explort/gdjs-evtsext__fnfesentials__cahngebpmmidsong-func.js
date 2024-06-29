@@ -15,7 +15,7 @@ gdjs.evtsExt__fnfesentials__cahngebpmmidsong.eventsList0 = function(runtimeScene
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67365076);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(87835756);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().get("tempvar1").setNumber(60000 / (typeof eventsFunctionContext !== 'undefined' ? Number(eventsFunctionContext.getArgument("bpm")) || 0 : 0));
@@ -51,6 +51,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("fnfesentials"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("fnfesentials"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

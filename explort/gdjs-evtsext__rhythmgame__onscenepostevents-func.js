@@ -18,7 +18,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelPlaying(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("Channelsongon")));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67974692);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(88471540);
 }
 }
 if (isConditionTrue_0) {
@@ -43,7 +43,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isSoundOnChannelPlaying(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().get("Channelsongon")));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(67976484);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(88473452);
 }
 }
 if (isConditionTrue_0) {
@@ -139,6 +139,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("rhythmgame"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("rhythmgame"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

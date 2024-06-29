@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ScriptEngine__UseAPI !== "undefined") {
 gdjs.evtsExt__ScriptEngine__UseAPI = {};
 
 
-gdjs.evtsExt__ScriptEngine__UseAPI.userFunc0x16f5ee0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ScriptEngine__UseAPI.userFunc0x1635028 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("name");
 
@@ -31,7 +31,7 @@ gdjs.evtsExt__ScriptEngine__UseAPI.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__ScriptEngine__UseAPI.userFunc0x16f5ee0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ScriptEngine__UseAPI.userFunc0x1635028(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -46,6 +46,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("ScriptEngine"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("ScriptEngine"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

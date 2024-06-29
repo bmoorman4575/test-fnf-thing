@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Clear3DScene !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Clear3DScene = {};
 
 
-gdjs.evtsExt__WithThreeJS__Clear3DScene.userFunc0x3eb38f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Clear3DScene.userFunc0x514ad48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -36,7 +36,7 @@ gdjs.evtsExt__WithThreeJS__Clear3DScene.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__WithThreeJS__Clear3DScene.userFunc0x3eb38f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Clear3DScene.userFunc0x514ad48(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -51,6 +51,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("WithThreeJS"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("WithThreeJS"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },

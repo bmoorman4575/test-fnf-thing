@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath !== "undefined"
 gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath = {};
 
 
-gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath.userFunc0x1add2c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath.userFunc0x16227e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 try {
   const channel = "syllabux_" + eventsFunctionContext.getArgument("channel");
@@ -27,7 +27,7 @@ gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath.userFunc0x1add2c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__PlaySound__changeplaybackvoliumFromPath.userFunc0x16227e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -42,6 +42,9 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("PlaySound"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("PlaySound"),
+  localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
   },
